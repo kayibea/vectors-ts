@@ -23,7 +23,7 @@ npm i @kayibea/vectors
 Creating a Vector
 
 ```ts
-import Vec2 from 'vectors';
+import { Vec2 } from '@kayibea/vectors';
 
 // 2D Vector
 const v2 = new Vec2(10, 20);
