@@ -1,0 +1,61 @@
+{
+  "name": "vectors",
+  "description": "A vectors library for TypeScript",
+  "version": "0.0.0",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "test": "vitest",
+    "deploy": "gh-pages -d docs"
+  },
+  "homepage": "https://kayibea.github.io/vectors-ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kayibea/vectors-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kayibea/vectors-ts/issues"
+  },
+  "keywords": [
+    "vector2",
+    "vector3",
+    "math",
+    "game-development",
+    "typescript",
+    "geometry"
+  ],
+  "author": "kiba gloirekiba21@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "gh-pages": "^6.2.0",
+    "jsdom": "^25.0.1",
+    "typedoc": "^0.27.2",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1",
+    "vite-plugin-dts": "^4.3.0",
+    "vitest": "^2.1.6"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "endOfLine": "lf"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}

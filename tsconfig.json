@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    // "lib": [
+    //   "ES2020",
+    //   "DOM",
+    //   "DOM.Iterable"
+    // ],
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    // "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "noEmit": false,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "declarationMap": true,
+    "allowJs": false,
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "outDir": "./dist",
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+  ]
+}

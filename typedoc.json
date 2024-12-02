@@ -1,0 +1,11 @@
+{
+    "entryPoints": [
+        "src/Vector2.ts",
+        "src/Vector3.ts"
+    ],
+    "out": "docs",
+    "includeVersion": true,
+    "excludeExternals": true,
+    "excludePrivate": true,
+    "excludeProtected": true
+}
