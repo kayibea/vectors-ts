@@ -1,5 +1,5 @@
 {
-  "name": "vectors",
+  "name": "@kayibea/vectors",
   "description": "A vectors library for TypeScript",
   "version": "0.0.0",
   "main": "dist/index.umd.js",
