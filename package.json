@@ -1,14 +1,14 @@
 {
   "name": "@kayibea/vectors",
   "description": "A vectors library for TypeScript",
-  "version": "0.1.1",
+  "version": "0.0.1",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "test": "vitest",
+    "test": "vitest --run",
     "deploy": "gh-pages -d docs"
   },
   "homepage": "https://kayibea.github.io/vectors-ts",
@@ -31,6 +31,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.10.1",
+    "@ungap/structured-clone": "^1.2.0",
     "gh-pages": "^6.2.0",
     "jsdom": "^25.0.1",
     "typedoc": "^0.27.2",

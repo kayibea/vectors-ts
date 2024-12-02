@@ -1,13 +1,14 @@
-import { defineConfig } from "vite";
-import dts from "vite-plugin-dts";
+import { defineConfig } from 'vite';
+import dts from 'vite-plugin-dts';
+import { structuredClone } from '@ungap/structured-clone';
 
 export default defineConfig({
   build: {
     sourcemap: true,
     emitAssets: false,
     lib: {
-      entry: "./src/index.ts",
-      name: "VectorLibrary",
+      entry: './src/index.ts',
+      name: 'VectorLibrary',
       fileName: (format) => `index.${format}.js`,
     },
     rollupOptions: {
@@ -24,9 +25,10 @@ export default defineConfig({
   ],
   test: {
     globals: true,
-    environment: "jsdom",
+    environment: 'jsdom',
+    setupFiles: './vitest.setup.ts', // You can create a separate setup file
     coverage: {
-      reporter: ["text", "json", "html"],
+      reporter: ['text', 'json', 'html'],
     },
   },
 });

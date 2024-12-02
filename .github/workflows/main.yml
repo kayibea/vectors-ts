@@ -19,5 +19,5 @@ jobs:
       # Install dependencies using npm
       - run: npm install
 
-      # Lint and build
+      # Run tests and build
       - run: npm run test && npm run build
