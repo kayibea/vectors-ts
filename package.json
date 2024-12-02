@@ -31,7 +31,6 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.10.1",
-    "@ungap/structured-clone": "^1.2.0",
     "gh-pages": "^6.2.0",
     "jsdom": "^25.0.1",
     "typedoc": "^0.27.2",
