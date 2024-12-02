@@ -15,7 +15,7 @@ Vectors is a lightweight, high-performance vector math library designed for use 
 Install Vec2 using npm or yarn:
 
 ```bash
-npm install vectors
+npm i @kayibea/vectors
 ```
 
 ## Usage
